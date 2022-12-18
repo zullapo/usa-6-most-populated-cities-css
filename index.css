@@ -1,0 +1,41 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 320px;
+  margin: 10px 20px;
+  border: 1px solid #aaa;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: background-color 400ms ease-out;
+}
+
+.thumbnail {
+  height: 320px;
+}
+
+.thumbnail img {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  margin: 10px 0;
+}
+
+.card-title {
+  font-weight: 700;
+}
